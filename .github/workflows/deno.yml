@@ -1,13 +1,11 @@
 # This workflow installs deno and runs `deno test`
-# on all pushes and PRs to the project
+# on all pushes to the project
 
 name: Deno Test
 
 on:
   push:
     branches: ["**"]
-  pull_request:
-    branches: ["main"]
 
 permissions:
   contents: read
