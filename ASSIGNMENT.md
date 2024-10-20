@@ -3,7 +3,7 @@
 This is a small assignment for use in our hiring process.
 The produced artifact (the forked repo) is intended to be used during an interview, where we talk through your solution.
 
-You should spend between 2 and 5 hours total on this.
+You should spend up to 2 and absolutely no more than 5 hours total on this.
 Keep track of how much time you use, as it is relevant context during the interview.
 
 The application is a small Deno application that exposes an HTTP endpoint for querying for silly programmer jokes.
