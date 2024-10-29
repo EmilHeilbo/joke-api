@@ -13,8 +13,9 @@ const JOKES = [
 ];
 
 export const handler : Deno.ServeHandler = (_request) => {
-  const randomIndex = Math.floor(Math.random() * JOKES.length);
-  const body = JOKES[randomIndex];
+  const randomIndex1 = Math.floor(Math.random() * JOKES.length);
+  const randomIndex2 = Math.floor(Math.random() * JOKES.length);
+  const body = JOKES[randomIndex1] + '\n' + JOKES[randomIndex2];
   return new Response(body);
 };
 
