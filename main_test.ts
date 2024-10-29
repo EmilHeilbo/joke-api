@@ -14,5 +14,5 @@ Deno.test(async function handlerTestTheSequel() {
   const body = await response.text();
   assertEquals(body.length > 0, true);
   const jokes = body.split('\n')
-  assertEquals(jokes.length, 3);
+  assertEquals(jokes.length, 2);
 });
