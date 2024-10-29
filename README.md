@@ -33,5 +33,11 @@ to run the server in production, run
 deno run --allow-net main.ts
 ```
 
+---
+
 > Note (EmilHeilbo): Dockerfile took 10 minutes, GitHub Actions took 30 minutes,
 > as I haven't automated pushing to GHCR before, and am working from a new PC
+>
+> Update: spent an additional ~10 minutes on reading up on Actions,
+> and made builds have the `latest` tag
+
